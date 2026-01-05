@@ -1,0 +1,51 @@
+{
+  "transport": {
+    "car": {
+      "co2_per_mile": 0.404,
+      "source": "EPA (Average Passenger Vehicle)",
+      "citation": "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle"
+    },
+    "flight": {
+      "co2_per_mile": 0.254,
+      "source": "UK DEFRA (Economy Class long-haul average)",
+      "citation": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2023"
+    },
+    "public_transit": {
+      "co2_per_mile": 0.14,
+      "source": "Our World in Data (Bus average)",
+      "citation": "https://ourworldindata.org/travel-carbon-footprint"
+    }
+  },
+  "diet": {
+    "omnivore": {
+      "co2_per_year": 2500,
+      "source": "Scarborough et al. (2014) - High meat eaters",
+      "citation": "https://link.springer.com/article/10.1007/s10584-014-1169-1"
+    },
+    "vegetarian": {
+      "co2_per_year": 1700,
+      "source": "Scarborough et al. (2014)",
+      "citation": "https://link.springer.com/article/10.1007/s10584-014-1169-1"
+    },
+    "vegan": {
+      "co2_per_year": 1500,
+      "source": "Scarborough et al. (2014)",
+      "citation": "https://link.springer.com/article/10.1007/s10584-014-1169-1"
+    }
+  },
+  "electricity": {
+    "default": {
+      "co2_per_kwh": 0.386,
+      "source": "EIA (US Average 2022)",
+      "citation": "https://www.eia.gov/tools/faqs/faq.php?id=74&t=11"
+    }
+  },
+  "national_averages": {
+    "USA": 16000,
+    "UK": 6000,
+    "Germany": 9000,
+    "India": 1900,
+    "China": 7000,
+    "Global": 4700
+  }
+}
