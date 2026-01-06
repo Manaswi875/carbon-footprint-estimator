@@ -2,22 +2,22 @@
 
 A production-ready full-stack web application that estimates your annual CO₂ emissions based on lifestyle choices (transport, diet, electricity) and provides actionable personalized recommendations.
 
-## 🚀 Comparison & Features
+## Comparison & Features
 - **Dynamic Emission Calculation**: Uses a retrieved dataset of emission factors.
 - **Interactive Dashboard**: Visualizes data with Recharts (Bar & Pie Charts).
 - **Personalized Recommendations**: Rule-based AI engine suggests ways to reduce footprint.
 - **Clean Architecture**: Separation of concerns with FastAPI backend and React frontend.
 - **Bonus Features**: 
-    - 🌙 Dark Mode Support
-    - 🌎 Country-specific baselines (USA, UK, Germany, India, China)
-    - 📜 Local Storage History of recent calculations
+    -  Dark Mode Support
+    -  Country-specific baselines (USA, UK, Germany, India, China)
+    - Local Storage History of recent calculations
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend**: React (Vite), TypeScript, Tailwind CSS, Recharts, Axios.
 - **Backend**: Python, FastAPI, Pydantic.
 - **Data**: JSON-based retrieval system sourced from EPA, UK DEFRA, and Our World in Data.
 
-## 🏃‍♂️ How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - Python 3.9+
@@ -53,13 +53,13 @@ npm run dev
 ```
 Open your browser to `http://localhost:5173` (or the port shown in terminal).
 
-## 📊 Data Sources & Citations
+## Data Sources & Citations
 - **Car Emissions**: EPA Green Vehicle Guide (0.404 kg CO₂/mile)
 - **Flight Emissions**: UK DEFRA 2023 (0.254 kg CO₂/mile)
 - **Dietary Footprints**: Scarborough et al. (2014) - High meat vs Veg vs Vegan.
 - **Electricity**: US EIA 2022 Average (0.386 kg CO₂/kWh)
 
-## 🔮 Future Improvements
+## Future Improvements
 - [ ] Add user authentication (Auth0/Firebase).
 - [ ] Implement historical data tracking (DB integration).
 - [ ] Add more granular questions (e.g., "Do you recycle?", "Home heating type").
