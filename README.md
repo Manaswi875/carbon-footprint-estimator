@@ -1,4 +1,4 @@
-# Carbon Footprint Estimator 🌍
+# Carbon Footprint Estimator
 
 A production-ready full-stack web application that estimates your annual CO₂ emissions based on lifestyle choices (transport, diet, electricity) and provides actionable personalized recommendations.
 
