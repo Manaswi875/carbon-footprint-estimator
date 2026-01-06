@@ -65,5 +65,3 @@ Open your browser to `http://localhost:5173` (or the port shown in terminal).
 - [ ] Add more granular questions (e.g., "Do you recycle?", "Home heating type").
 - [ ] Dark Mode toggle (already supported by CSS architecture, needs UI toggle).
 
----
-Built with 💚 by Carbon Footprint Team.
